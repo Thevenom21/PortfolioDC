@@ -79,3 +79,13 @@ h3, .sidebar h2 {
     margin-top: 8px;
     margin-right: 5px;
 }
+
+footer {
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: yellow;
+    text-align: center;
+    background: black;
+    border-top: 8px solid red;
+}
