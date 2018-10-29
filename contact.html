@@ -6,8 +6,10 @@
     <title>About | Dario Cobas</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
 </head>
 <body>
+
     <header id="masthead">
         <div>
             <a>Dario Cobas</a>
@@ -18,3 +20,27 @@
             </nav>
         </div>
     </header>
+
+
+    <div id="main-container" class="container">
+        <section class="main-section">
+                <h1>Contact</h1>
+                <form>
+                    <ul>
+                        <li>
+                            <label for="Name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter Name" Required="required">
+                        </li>
+                        <li>
+                            <label for="Email">Email</label>
+                            <input type="text" id="email" name="email" placeholder="Enter email" Required="required">
+                        </li>
+                        <li>
+                            <label for="Message">Message</label>
+                            <textarea id="message" name="message" required="required"></textarea> 
+                        </li>
+                    </ul>
+                    <input type="submit">
+                </form>
+        </section>
+    </div>
